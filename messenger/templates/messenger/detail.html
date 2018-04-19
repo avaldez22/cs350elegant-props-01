@@ -6,11 +6,12 @@
 {% block page_title %} Description {% endblock page_title %}
 
 {% block content %}
-<p>{{object.price}}</p>
+
+<p>{{object.message_subject}}</p>
+<p>{{object.message}}</p>
+<p>{{object.date}}</p>
+<p>{{object.email}}</p>
 <p>{{object.description}}</p>
-<p>{{object.zipcode}}</p>
-<p>{{object.nearest_elementary}}</p>
-
-
 
 {% endblock content %}
+
